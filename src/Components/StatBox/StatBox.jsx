@@ -1,8 +1,8 @@
-const StatBox = ({percentage, text }) => {
+const StatBox = ({percentage, text, textColor, bgColor }) => {
     return (
-        <div className="h-[100px] w-[400px]">
-            <h2>{percentage}</h2>
-            <h2>{text}</h2>
+        <div className={`h-[fit-content] w-[350px] p-4 rounded-2xl ${bgColor}`}>
+            <h2 className={`text-6xl font-bold ${textColor}`}>{percentage}</h2>
+            <h2 className={`${textColor}`}>{text}</h2>
         </div>
     );
 }

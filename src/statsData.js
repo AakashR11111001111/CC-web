@@ -10,7 +10,7 @@ const statsData = [
       id: 2,
       percentage: "3X",
       text: "ESG High Performers Deliver A Higher Total Shareholder Return",
-      bgColor: "bg-green-500",
+      bgColor: "bg-darkgreen",
       textColor: "text-black"
     },
     {
@@ -18,7 +18,7 @@ const statsData = [
       percentage: "37%",
       text: "Of The World's Largest Companies Have A Public Net Zero Target. Nearly All Are Off Track",
       bgColor: "bg-gray-100",
-      textColor: "text-green-600"
+      textColor: "text-darkgreen"
     },
     {
       id: 4,
