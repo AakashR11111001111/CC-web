@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme {
+    --color-darkgreen: #28b30e;
+    --color-lightgreen: #d5ffcf;
+  }
